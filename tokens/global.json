@@ -1,0 +1,31 @@
+{
+    "color": {
+        "contrast": {
+            "light": {
+                "value": "#f1f1f1"
+            },
+            "dark": {
+                "value": "#0c0c0c"
+            }
+        },
+        "function": {
+            "primary": {
+                "lightest": {
+                    "value": "#ece7f2"
+                },
+                "default": {
+                    "value": "#5e3491"
+                },
+                "action": {
+                    "value": "#2b0756"
+                },
+                "active": {
+                    "value": "#8e71b2"
+                },
+                "darkest": {
+                    "value": "#25064b"
+                }
+            }
+        }
+    }
+}
