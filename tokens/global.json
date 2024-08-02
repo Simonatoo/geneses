@@ -1,31 +1,105 @@
 {
-    "color": {
-        "contrast": {
-            "light": {
-                "value": "#f1f1f1"
-            },
-            "dark": {
-                "value": "#0c0c0c"
-            }
+  "color": {
+    "function": {
+      "primary": {
+        "lighest": {
+          "value": "#e5dfec",
+          "type": "color",
+          "description": "Cor utilizada para compor os elementos que estão acima do container da cor default."
         },
-        "function": {
-            "primary": {
-                "lightest": {
-                    "value": "#ece7f2"
-                },
-                "default": {
-                    "value": "#5e3491"
-                },
-                "action": {
-                    "value": "#2b0756"
-                },
-                "active": {
-                    "value": "#8e71b2"
-                },
-                "darkest": {
-                    "value": "#25064b"
-                }
-            }
+        "default": {
+          "value": "#5e0fbd",
+          "type": "color",
+          "description": "Cor interação principal do layout. Ela não pode representar mais de 20% da tela."
+        },
+        "action": {
+          "value": "#310862",
+          "type": "color",
+          "description": "Cor que representa a pré interação do usuário com o elemento. Ex.: Hover do botão."
+        },
+        "active": {
+          "value": "#8e71b2",
+          "type": "color",
+          "description": "Cor que representa a pós interação do usuário com o elemento. Ex.: Clique no botão."
+        },
+        "darkest": {
+          "value": "#261937",
+          "type": "color",
+          "description": "Cor normalmente utilizada para estilizar conteudos que estão acima de um container com a cor lightest aplicada."
         }
+      }
     }
+  },
+  "sizing": {
+    "pico": {
+      "value": "1",
+      "type": "sizing"
+    },
+    "nano": {
+      "value": "2",
+      "type": "sizing"
+    },
+    "micro": {
+      "value": "4",
+      "type": "sizing"
+    },
+    "extraSmall": {
+      "value": "8",
+      "type": "sizing"
+    },
+    "small": {
+      "value": "12",
+      "type": "sizing"
+    },
+    "medium": {
+      "value": "16",
+      "type": "sizing"
+    },
+    "large": {
+      "value": "20",
+      "type": "sizing"
+    },
+    "extraLarge": {
+      "value": "28",
+      "type": "sizing"
+    },
+    "giant": {
+      "value": "48",
+      "type": "sizing"
+    },
+    "titan": {
+      "value": "72",
+      "type": "sizing"
+    },
+    "colossus": {
+      "value": "120",
+      "type": "sizing"
+    }
+  },
+  "spacing": {
+    "micro": {
+      "value": "{sizing.micro}",
+      "type": "spacing"
+    },
+    "extraSmall": {
+      "value": "{sizing.extraSmall}",
+      "type": "spacing"
+    },
+    "small": {
+      "value": "{sizing.small}",
+      "type": "spacing"
+    },
+    "medium": {
+      "value": "{sizing.medium}",
+      "type": "spacing"
+    },
+    "large": {
+      "value": "{sizing.large}",
+      "type": "spacing"
+    },
+    "extraLarge": {
+      "value": "{sizing.extraLarge}",
+      "type": "spacing"
+    }
+  }
 }
