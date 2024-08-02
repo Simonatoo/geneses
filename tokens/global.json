@@ -9,7 +9,7 @@
             "description": "Cor utilizada para compor os elementos que estão acima do container da cor default."
           },
           "default": {
-            "value": "#5e0fbd",
+            "value": "#bd0f53",
             "type": "color",
             "description": "Cor interação principal do layout. Ela não pode representar mais de 20% da tela."
           },
