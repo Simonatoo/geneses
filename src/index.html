@@ -1,12 +1,15 @@
 <head>
     <link rel="stylesheet" href="../build/css/_variables.css">
-    <script src="components/button.js"></script>
+    <link rel="stylesheet" href="global.css">
+    <script type="module" src="components/index.js"></script>
 </head>
 <body>
-    <my-button appearance="primary" size="lg" >Pesquisar</my-button>
-
-    <script>
-        const button = document.querySelector('my-button');
-        button.addEventListener('click', () => { alert(`You've touch the button!`) })
-    </script>
+	<header>
+		<h1>Components</h1>
+		<p>Playground for component preview and testing</p>
+	</header>
+	<div style="display: flex; gap: 20px; flex-direction:column">
+		<gen-button>Click me</gen-button>
+		<gen-field/>
+	</div>
 </body>

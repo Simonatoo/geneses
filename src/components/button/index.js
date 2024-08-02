@@ -1,5 +1,5 @@
 "use strict";
-class Button extends HTMLElement {
+export class Button extends HTMLElement {
     constructor() {
         super();
     }
@@ -62,4 +62,3 @@ class Button extends HTMLElement {
         shadow.adoptedStyleSheets = [sheet];
     }
 }
-customElements.define('my-button', Button);
